@@ -9,5 +9,11 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "pg": "^8.7.3",
+        "winston": "^3.6.0"
+    }
 }
