@@ -13,3 +13,7 @@
 2022-04-03T03:14:51.169Z [petshop-api] info GET /proprietario
 2022-04-03T03:14:53.893Z [petshop-api] info GET /proprietario
 2022-04-03T03:15:53.135Z [petshop-api] info GET /proprietario
+2022-04-03T03:26:41.521Z [petshop-api] error GET  - next is not defined
+2022-04-03T03:26:59.371Z [petshop-api] error GET  - next is not defined
+2022-04-03T03:27:22.862Z [petshop-api] error GET  - next is not defined
+2022-04-03T03:28:41.899Z [petshop-api] error GET  - next is not defined

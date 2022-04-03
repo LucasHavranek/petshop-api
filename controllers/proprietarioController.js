@@ -45,9 +45,19 @@ async function getProprietarios(req, res, next) {
     }
 }
 
+async function getProprietario(req, res, next) {
+    try {
+        res.send(await proprietarioService.getProprietario(req.params.id))
+        logger.info('GET /proprietario:id')
+    } catch (err) {
+        next(err)
+    }
+}
+
 export default {
     createProprietario,
     updateProprietario,
     deleteProprietario,
     getProprietarios,
+    getProprietario,
 }

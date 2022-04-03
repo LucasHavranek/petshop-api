@@ -16,10 +16,15 @@ async function getProprietarios() {
     return await proprietarioRepository.getProprietarios()
 }
 
+async function getProprietario(id) {
+    return await proprietarioRepository.getProprietario(id)
+}
+
 
 export default {
     createProprietario,
     updateProprietario,
     deleteProprietario,
     getProprietarios,
+    getProprietario,
 }

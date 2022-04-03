@@ -51,9 +51,22 @@ async function getProprietarios() {
     }
 }
 
+async function getProprietario(id) {
+    const conn = await connectDatabase()
+    try {
+        const sql = await conn.query('SELECT * from proprietarios WHERE proprietario_id = $1', [id])
+        return sql.rows[0]
+    } catch (err) {
+        throw err
+    } finally {
+        conn.release()
+    }
+}
+
 export default {
     insertProprietario,
     updateProprietario,
     deleteProprietario,
     getProprietarios,
+    getProprietario,
 }
