@@ -1,1 +1,15 @@
 2022-04-02T17:34:59.939Z [petshop-api] info POST /proprietario - {"nome":"Daniela","telefone":"(11)987896754"}
+2022-04-03T02:24:58.641Z [petshop-api] info PUT /proprietario - {"proprietario_id":1,"nome":"Larissa","telefone":"(11)970707070"}
+2022-04-03T02:25:40.586Z [petshop-api] info PUT /proprietario - {"proprietario_id":1,"nome":"Lucas","telefone":"(11)970707070"}
+2022-04-03T02:51:56.658Z [petshop-api] info PUT /proprietario - {"proprietario_id":1,"nome":"Teste","telefone":"(11)970707070"}
+2022-04-03T02:52:17.063Z [petshop-api] error DELETE  - err is not a constructor
+2022-04-03T02:54:12.095Z [petshop-api] error DELETE  - column "proprietario" does not exist
+2022-04-03T02:55:00.533Z [petshop-api] info DELETE /proprietario :id
+2022-04-03T02:55:15.254Z [petshop-api] info DELETE /proprietario :id
+2022-04-03T03:11:26.752Z [petshop-api] info POST /proprietario - {"nome":"Lucas","telefone":"(11)970707070"}
+2022-04-03T03:12:21.277Z [petshop-api] error GET  - res is not defined
+2022-04-03T03:13:14.046Z [petshop-api] error GET  - res is not defined
+2022-04-03T03:14:07.773Z [petshop-api] error GET  - res is not defined
+2022-04-03T03:14:51.169Z [petshop-api] info GET /proprietario
+2022-04-03T03:14:53.893Z [petshop-api] info GET /proprietario
+2022-04-03T03:15:53.135Z [petshop-api] info GET /proprietario
