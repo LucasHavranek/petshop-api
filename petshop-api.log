@@ -1,1 +1,15 @@
 
+2022-04-04T14:53:23.643Z [petshop-api] info GET /animal
+2022-04-04T14:53:30.843Z [petshop-api] info GET /proprietario
+2022-04-04T14:54:37.019Z [petshop-api] info GET /animal:id
+2022-04-04T14:54:47.825Z [petshop-api] info GET /animal:id
+2022-04-04T14:56:36.250Z [petshop-api] info POST /animal - {"nome":"Totó","tipo":"Cachorro","proprietario_id":6}
+2022-04-04T15:00:30.578Z [petshop-api] info GET /animal
+2022-04-04T18:19:14.231Z [petshop-api] info GET /animal
+2022-04-04T18:55:43.126Z [petshop-api] info GET /animal
+2022-04-04T18:56:53.046Z [petshop-api] info GET /animal
+2022-04-04T18:57:14.208Z [petshop-api] info GET /animal
+2022-04-04T19:04:27.192Z [petshop-api] info GET /animal
+2022-04-04T19:05:04.026Z [petshop-api] info GET /animal
+2022-04-04T19:05:21.900Z [petshop-api] info GET /animal
+2022-04-04T19:44:33.005Z [petshop-api] info POST /proprietario - {"nome":"Lucas","telefone":"(11)970707070"}

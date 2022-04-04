@@ -38,7 +38,7 @@ async function deleteAnimal(req, res, next) {
 
 async function getAnimals(req, res, next) {
     try {
-        res.send(await animalService.getAnimals())
+        res.send(await animalService.getAnimals(req.query.proprietario_id))
         logger.info('GET /animal')
     } catch (err) {
         next(err)
@@ -54,10 +54,20 @@ async function getAnimal(req, res, next) {
     }
 }
 
+async function getAnimalsByProprietarioId(req, res, next) {
+    try {
+        res.send(await animalService.getAnimalsByProprietarioId(proprietario_id))
+        logger.info('GET /animal')
+    } catch (err) {
+        next(err)
+    }
+}
+
 export default {
     createAnimal,
     updateAnimal,
     deleteAnimal,
     getAnimals,
     getAnimal,
+    getAnimalsByProprietarioId
 }
