@@ -1,12 +1,1 @@
 
-2022-04-03T03:55:54.045Z [petshop-api] error POST  - insert or update on table "animais" violates foreign key constraint "fk_proprietarios"
-2022-04-03T03:57:12.124Z [petshop-api] info POST /animal - {"nome":"Fred","tipo":"vira-lata","proprietario_id":3}
-2022-04-03T03:57:50.017Z [petshop-api] info GET /animal
-2022-04-03T03:58:19.436Z [petshop-api] info GET /animal:id
-2022-04-03T03:58:28.924Z [petshop-api] info GET /animal:id
-2022-04-03T03:59:05.530Z [petshop-api] info POST /animal - {"nome":"Lua","tipo":"Shitzu","proprietario_id":3}
-2022-04-03T04:00:16.089Z [petshop-api] error PUT  - Nome, tipo, animal_id, proprietario_id são obrigatórios!
-2022-04-03T04:00:27.732Z [petshop-api] info GET /animal
-2022-04-03T04:00:47.498Z [petshop-api] info PUT /animal - {"nome":"Lua","tipo":"vira-lata","proprietario_id":3,"animal_id":3}
-2022-04-03T04:01:30.764Z [petshop-api] info DELETE /animal :id
-2022-04-03T04:01:39.882Z [petshop-api] info DELETE /animal :id
