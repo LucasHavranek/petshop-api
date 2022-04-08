@@ -22,3 +22,7 @@
 2022-04-04T21:20:47.363Z [petshop-api] info GET /animal
 2022-04-04T21:21:00.565Z [petshop-api] info DELETE /animal :id
 2022-04-04T21:21:14.591Z [petshop-api] info GET /animal
+2022-04-08T18:23:21.680Z [petshop-api] info GET /proprietario
+2022-04-08T18:23:27.846Z [petshop-api] info GET /proprietario:id
+2022-04-08T18:23:33.456Z [petshop-api] info GET /animal
+2022-04-08T18:23:41.118Z [petshop-api] info GET /animal
