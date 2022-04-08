@@ -1,16 +1,12 @@
-import pg from 'pg'
+import sequelize from 'sequelize'
 
-async function connectDatabase() {
-    if (global.connection) {
-        return global.connection.connect()
+const sequelizeConnection = new sequelize(
+    "postgres://eaxygmcu:RCoIUVBYY3SUCwLzEXEQFnKD_K7cfeCO@kesavan.db.elephantsql.com/eaxygmcu", {
+        dialect: 'postgress',
+        define: {
+            timestamps: false
+        }
     }
-    const pool = new pg.Pool({
-        connectionString: "postgres://eaxygmcu:RCoIUVBYY3SUCwLzEXEQFnKD_K7cfeCO@kesavan.db.elephantsql.com/eaxygmcu"
-    })
-    global.connection = pool
-    return pool.connect()
-}
+)
 
-export {
-    connectDatabase
-}
+export default sequelizeConnection
