@@ -30,3 +30,28 @@
 2022-04-08T18:47:26.036Z [petshop-api] info GET /animal
 2022-04-08T19:56:13.087Z [petshop-api] info GET /animal
 2022-04-08T20:14:33.385Z [petshop-api] info GET /animal
+2022-04-08T21:37:41.360Z [petshop-api] error GET  - servicoService.getServicoss is not a function
+2022-04-08T21:41:03.708Z [petshop-api] error GET  - column "nome" does not exist
+2022-04-09T13:39:44.610Z [petshop-api] error GET  - column "nome" does not exist
+2022-04-09T14:01:20.368Z [petshop-api] info GET /servico
+2022-04-09T14:15:21.765Z [petshop-api] error GET  - column "proprietario_id" does not exist
+2022-04-09T14:16:18.846Z [petshop-api] error GET  - column "proprietario_id" does not exist
+2022-04-09T14:17:23.876Z [petshop-api] info GET /proprietario
+2022-04-09T14:17:30.101Z [petshop-api] error GET  - column "proprietario_id" does not exist
+2022-04-09T14:24:33.321Z [petshop-api] info GET /servico
+2022-04-09T14:24:40.007Z [petshop-api] error GET  - column "proprietario_id" does not exist
+2022-04-09T14:27:35.304Z [petshop-api] info GET /servico
+2022-04-09T14:28:01.723Z [petshop-api] info GET /servico
+2022-04-09T14:28:02.595Z [petshop-api] info GET /servico
+2022-04-09T14:28:03.161Z [petshop-api] info GET /servico
+2022-04-09T14:28:45.780Z [petshop-api] info GET /servico
+2022-04-09T14:28:59.894Z [petshop-api] info GET /servico
+2022-04-09T14:34:11.901Z [petshop-api] info GET /servico
+2022-04-09T14:34:49.494Z [petshop-api] info GET /servico
+2022-04-09T14:35:40.090Z [petshop-api] info GET /servico
+2022-04-09T14:35:55.554Z [petshop-api] error GET  - column "proprietario_id" does not exist
+2022-04-09T14:36:11.557Z [petshop-api] info GET /servico
+2022-04-09T14:39:37.378Z [petshop-api] error GET  - proprietarios is not associated to servicos!
+2022-04-09T14:40:01.029Z [petshop-api] error GET  - WHERE parameter "proprietario_id" has invalid "undefined" value
+2022-04-09T14:40:31.310Z [petshop-api] error GET  - column "proprietario_id" does not exist
+2022-04-09T14:55:28.304Z [petshop-api] error GET  - column "proprietario_id" does not exist
