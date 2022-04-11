@@ -17,3 +17,17 @@
 2022-04-11T13:53:35.093Z [petshop-api] info GET /post
 2022-04-11T13:53:38.692Z [petshop-api] info POST /post - {"titulo":"Titulo do post","conteudo":"Conteudo do post","comentarios":[{"nome":"Nome do autor","conteudo":"Conteudo do comentario"}],"_id":"625432e2a67058f77f279c7b"}
 2022-04-11T20:30:34.652Z [petshop-api] info POST /comentario - {"_id":1,"comentarios":[{"nome":"Teste","conteudo":"Teste"}]}
+2022-04-11T20:33:16.858Z [petshop-api] info POST /comentario - {"_id":2,"comentarios":[{"nome":"Teste","conteudo":"Teste"}]}
+2022-04-11T20:34:13.842Z [petshop-api] info GET /servico
+2022-04-11T20:36:15.135Z [petshop-api] error POST  - Servico_id, descricao, valor e animal_id são obrigatórios!
+2022-04-11T20:38:26.682Z [petshop-api] info POST /servico - {"descricao":"Consulta","valor":200,"animal_id":5}
+2022-04-11T20:38:43.094Z [petshop-api] info GET /servico
+2022-04-11T20:39:37.609Z [petshop-api] info GET /servico
+2022-04-11T20:39:58.157Z [petshop-api] info GET /servico
+2022-04-11T20:40:11.375Z [petshop-api] info GET /animal
+2022-04-11T20:40:37.083Z [petshop-api] info GET /proprietario
+2022-04-11T20:40:54.238Z [petshop-api] info GET /servico
+2022-04-11T20:41:11.966Z [petshop-api] info GET /servico
+2022-04-11T20:41:27.560Z [petshop-api] info GET /servico
+2022-04-11T20:42:20.637Z [petshop-api] info GET /servico
+2022-04-11T20:42:35.829Z [petshop-api] info GET /servico
