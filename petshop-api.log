@@ -1,0 +1,18 @@
+2022-04-10T03:51:43.892Z [petshop-api] error POST  - Servico_id, descricao, valor e animal_id são obrigatórios!
+2022-04-10T04:00:16.795Z [petshop-api] info POST /post - {"titulo":"Titulo do post","conteudo":"Conteudo do post","comentarios":[{"nome":"Nome do autor","conteudo":"Conteudo do comentario"}],"_id":"6252565048fc90df6dc78e92"}
+2022-04-10T04:12:05.545Z [petshop-api] info GET /posts
+2022-04-10T04:16:29.517Z [petshop-api] info GET /posts
+2022-04-10T04:21:26.197Z [petshop-api] info GET /posts
+2022-04-11T01:13:44.484Z [petshop-api] error GET  - connection <monitor> to 54.94.15.145:27017 closed
+2022-04-11T01:14:12.786Z [petshop-api] error GET  - connection <monitor> to 54.94.15.145:27017 closed
+2022-04-11T01:15:07.611Z [petshop-api] info GET /posts
+2022-04-11T01:17:19.596Z [petshop-api] info GET /posts
+2022-04-11T01:19:24.140Z [petshop-api] info GET /posts
+2022-04-11T01:24:47.569Z [petshop-api] info GET /posts
+2022-04-11T01:35:00.078Z [petshop-api] info GET /posts
+2022-04-11T01:37:28.733Z [petshop-api] info GET /posts
+2022-04-11T01:38:57.682Z [petshop-api] info GET /posts
+2022-04-11T01:39:09.874Z [petshop-api] info GET /posts
+2022-04-11T13:52:44.924Z [petshop-api] info GET /post
+2022-04-11T13:53:35.093Z [petshop-api] info GET /post
+2022-04-11T13:53:38.692Z [petshop-api] info POST /post - {"titulo":"Titulo do post","conteudo":"Conteudo do post","comentarios":[{"nome":"Nome do autor","conteudo":"Conteudo do comentario"}],"_id":"625432e2a67058f77f279c7b"}
