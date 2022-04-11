@@ -16,3 +16,4 @@
 2022-04-11T13:52:44.924Z [petshop-api] info GET /post
 2022-04-11T13:53:35.093Z [petshop-api] info GET /post
 2022-04-11T13:53:38.692Z [petshop-api] info POST /post - {"titulo":"Titulo do post","conteudo":"Conteudo do post","comentarios":[{"nome":"Nome do autor","conteudo":"Conteudo do comentario"}],"_id":"625432e2a67058f77f279c7b"}
+2022-04-11T20:30:34.652Z [petshop-api] info POST /comentario - {"_id":1,"comentarios":[{"nome":"Teste","conteudo":"Teste"}]}
